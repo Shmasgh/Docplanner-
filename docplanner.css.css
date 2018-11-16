@@ -1,0 +1,420 @@
+.img-warsaw
+*{ 
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.doc-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.Links{
+    text-decoration: none;
+    color:#ababab;
+    font-size: 20px;
+
+    
+
+}
+.Links1{
+    color:#00b39b
+}
+.small-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    
+}
+.big-title{
+    text-align: center;
+    color: #00b39b;
+    font-size: 20px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+   font-size: 20px;
+   
+   
+
+}
+.parag{
+    padding: 20px;
+   line-height: 30px;
+   font-size: 12px;
+
+}
+
+.clients-doctors{
+    display: flex;
+    justify-content: space-between;
+margin-right: 150px;
+margin-left: 150px;
+height: 450px;
+color: white;
+
+}
+.sm-titles{
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+  .titles{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+    
+.patients{
+    background: #00b39b;
+     border-radius: 10%;
+     padding: 22px 0 22px 22px;
+     flex: 1;
+     margin-right: 10px;
+   
+}
+.doctors{
+    background: #3d83df;
+    border-radius: 10%;
+    padding: 22px 0 22px 22px;
+    flex: 1;
+    margin-left: 10px;
+    
+
+}
+
+.img-doctoralia{
+    background:url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+   margin-left: 200px;
+}
+.img-agenda{
+    background: url("https://www.docplanner.com/img/screen-saas@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+   margin-left: 200px;
+   margin-top: 90px;
+}
+.liste{
+    height: 40px;
+    border-radius: 5px;
+}
+.symbols-logos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.symbols{
+width: 350px;
+padding-left: 150px;
+color: #00b39b;
+}
+
+.logos{
+   width: 65%;
+   margin-top: 20px;
+}
+.logos{
+    fill: #d0d0d0;
+
+}
+.police{
+    color: #00b39b;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 150px;
+
+}
+
+.img-doc{
+    padding-left: 50px;
+    margin-top: 150px;
+
+}
+
+.police-p{
+    color: gray;
+    margin-left: 150px;
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.big-grid{
+    display: flex;
+    justify-content: space-around;
+   background-color: #e5faf8;
+   background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    height: 650px;
+
+    
+}
+.big-grid{
+    overflow: hidden;
+}
+
+
+
+.parag1{
+    font-size: 15px;
+}
+
+.images1{
+    display: flex;
+    justify-content: space-around;
+}
+.offices-images{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+}
+.title1 h3{
+    color: #00b39b;
+    font-weight: lighter;
+    font-size: 32px;
+}
+.p-office{
+    
+    color: gray;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.parag{
+    color: gray;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+.section-towns{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content:center;
+   
+    margin-bottom:50px;
+   
+}
+
+.image-warsaw{
+    background:url(" https://www.docplanner.com/images/warsaw.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-left: 17%;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+
+.img-barcelona{
+    background:url("https://www.docplanner.com/images/barcelona.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-istanbul{
+    background:url("https://www.docplanner.com/images/istanbul.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-rome{
+    background: url("https://www.docplanner.com/images/rome.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-mexico{
+    background: url("https://www.docplanner.com/images/mexico-city.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-curitiba{
+    background: url("https://www.docplanner.com/images/curitiba.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-description{
+    display:flex;
+    justify-content:space-around;
+    justify-content:baseline;
+    padding-left:10%;
+    width:300px;  
+    margin-right:0%;
+    margin-left:0%;
+    font-family:"Roboto";
+}
+.grid>a{
+    text-decoration:none;
+    color:#747474;
+}
+
+.openings>p{
+    background-color:#3d83df;
+    font-family:"Roboto";
+    font-size:70%;
+    border-radius:2%;
+    padding:10%;
+    margin-top:10%;
+    width:100%;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+
+.little-grid{
+    font-family:"Roboto";
+    color:#ababab;
+    display:flex;
+    justify-content:center;
+    margin-right:15%;
+    margin-left:15%;
+}
+
+.towns{
+    margin-top:50px;
+    font-size:80%;
+}
+
+.towns-link{
+    text-decoration:none;
+    color:#3d83df;
+}
+
+.little-grid{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.contacts{
+    font-size:80%;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.towns-bar{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:center;
+}
+
+.little-grid{
+    display:flex;
+}
+.little-grid{
+    display:flex;
+}
+.img-warsaw{
+    background:url(" https://www.docplanner.com/images/warsaw.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+}
+
+.img-barcelona{
+    background:url("https://www.docplanner.com/images/barcelona.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.img-istanbul{
+    background:url("https://www.docplanner.com/images/istanbul.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+.image1-2-3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 40px;
+
+}
+.img-towns2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.img-rome{
+    background: url("https://www.docplanner.com/images/rome.png");
+    width:300px;
+    height:300px;
+    border-radius:6px;
+    margin-right:9%;
+    margin-left:9%;
+    background-repeat: no-repeat;
+}
+
+.title{
+color: #00b39b
+}
+
+
+.boxes3{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 30%;
+    height: 260px;
+    background-color: white;
+    text-align: center;
+   margin : 15px;
+    font-size: 12px;
+    padding-top: 20px;
+    border-radius: 5px;
+    
+}
+
+.box-col1 {
+    margin-top: 0;
+}
